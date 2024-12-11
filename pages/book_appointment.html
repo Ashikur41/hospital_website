@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Book Appointment</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo"><a href="../index.html">HospitalCare</a></div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn-primary"><a href="../pages/book_appointment.html">Book Appointment</a></button>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Book Hospital Appointment</h1>
+    <form action="#" method="post">
+        
+        <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date">Appointment Date</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="time">Appointment Time</label>
+            <input type="time" id="time" name="time" required>
+        </div>
+
+        <div class="form-group">
+            <label for="department">Department</label>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="general-medicine">General Medicine</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="dermatology">Dermatology</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="doctor">Preferred Doctor</label>
+            <input type="text" id="doctor" name="doctor" placeholder="Enter doctor's name (optional)">
+        </div>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2024 Hospital Care Ltd. All Rights Reserved.</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

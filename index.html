@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Landing Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo"><a href="./index.html">HospitalCare</a></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="./pages/about.html">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn-primary"><a href="pages/book_appointment.html">Book Appointment</a></button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="slider">
+        <div class="slide active">
+            <div class="hero-content">
+                <h1>Leading Healthcare for Everyone</h1>
+                <p>Your health is our top priority. Get access to the best medical care with expert doctors and modern facilities.</p>
+                <button class="btn-primary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="hero-content">
+                <h1>Compassionate Care, Advanced Technology</h1>
+                <p>We blend compassion with cutting-edge medical technology to ensure the best outcomes for our patients.</p>
+                <button class="btn-primary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="hero-content">
+                <h1>Your Trusted Health Partner</h1>
+                <p>From routine checkups to specialized treatments, we are here to support your health and well-being.</p>
+                <button class="btn-primary">Learn More</button>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+        <!-- Dots for Slide Navigation -->
+        <div class="dots">
+            <span class="dot active" onclick="setSlide(0)"></span>
+            <span class="dot" onclick="setSlide(1)"></span>
+            <span class="dot" onclick="setSlide(2)"></span>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="about-content">
+            <h2>About Our Hospital</h2>
+            <p>We are a leading healthcare provider offering world-class medical services. Our team of expert doctors, nurses, and specialists is committed to ensuring the well-being of every patient.
+                <br/>
+                <b>Experienced Doctors</b>
+                <br/>
+                Our doctors have years of experience and expertise in various medical fields.
+                <br/>
+                <b>Modern Facilities</b>
+                <br/>
+                We use the latest technology and modern equipment for accurate diagnosis and treatment.
+                <br/>
+                <b>24/7 Emergency Care</b>
+                <br/>
+                We offer round-the-clock emergency care services for urgent medical needs.
+            </p>
+    </div>
+    <div class="about-image">
+        <img class="about-img" src="./assets/images/slider3.jpg" alt="about-img">
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+        <div class="service-card image1">
+            <h3>Cardiology</h3>
+            <p>Comprehensive heart care services from diagnosis to treatment.</p>
+        </div>
+        <div class="service-card image2">
+            <h3>Orthopedics</h3>
+            <p>Specialized care for bones, joints, and musculoskeletal conditions.</p>
+        </div>
+        <div class="service-card image3">
+            <h3>Pediatrics</h3>
+            <p>Child health services from neonatal care to adolescent health.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2024 Hospital Care Ltd. All Rights Reserved.</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
