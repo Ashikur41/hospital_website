@@ -1,5 +1,4 @@
 
-/* Hero Section */
 .hero {
     position: relative;
     height: 100vh;
@@ -63,8 +62,6 @@
 .btn-primary:hover {
     background-color: #27ae60;
 }
-
-/* Navigation Buttons (Prev/Next) */
 .prev, 
 .next {
     position: absolute;
@@ -96,7 +93,6 @@
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Dots Navigation */
 .dots {
     position: absolute;
     bottom: 20px;
@@ -125,8 +121,6 @@
     background-color: #2980b9;
 }
 
-
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -152,7 +146,6 @@ a {
     color: inherit;
 }
 
-/* Header Section */
 .header {
     background-color: #3498db;
     color: #fff;
@@ -200,7 +193,6 @@ a {
     background-color: #27ae60;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     background-color: #ecf0f1;
@@ -217,14 +209,12 @@ a {
     margin-bottom: 1.5rem;
 }
 
-/* About Section */
-/* General styles for the about section */
 .about {
     display: flex; 
-    align-items: center; /* Centers content vertically */
-    justify-content: space-between; /* Ensures 50/50 split */
+    align-items: center;
+    justify-content: space-between; 
     width: 100%; 
-    padding: 50px 0; /* Adds vertical spacing */
+    padding: 50px 0; 
     background-color: #f9f9f9; 
 }
 
@@ -262,8 +252,6 @@ a {
     object-fit: cover; 
 }
 
-
-/* Services Section */
 .services {
     background-color: #3498db;
     color: #0b6dec;
@@ -307,7 +295,6 @@ a {
     align-items: center;
 }
 
-/* Contact Section */
 .contact {
     padding: 3rem 1rem;
     text-align: center;
@@ -339,7 +326,6 @@ button[type="submit"]:hover {
     background-color: #2980b9;
 }
 
-/* Footer */
 .footer {
     background-color: #2c3e50;
     color: #fff;
